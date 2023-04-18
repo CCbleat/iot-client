@@ -3,6 +3,12 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
+    <RouterLink to="/autolight">Jump to AutoLight Control Page</RouterLink>
+    <br/>
+    <RouterLink to="/brightinfo">Jump to Brightness Degree Page</RouterLink>
+    <br/>
+    <RouterLink to="/autofan">Jump to AutoFan Control Page</RouterLink>
+    <br/>
     <RouterView />
 </template>
 
