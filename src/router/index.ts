@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import LightControl from '../views/LightControl.vue'
 import FanControl from '../views/FanControl.vue'
 import BrightnessInfo from '../views/BrightnessInfo.vue'
+import TemperatureHumidityInfo from '../views/TemperatureHumidityInfo.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,6 +21,11 @@ const router = createRouter({
       path: '/autofan',
       name: 'AutoFan Control Page',
       component: FanControl
+    },
+    {
+      path: '/temperaturehumidinfo',
+      name: 'Temperature Humidity Info Page',
+      component: TemperatureHumidityInfo
     },
     // {
       // path: '/about',

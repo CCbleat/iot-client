@@ -9,6 +9,8 @@ import { RouterLink, RouterView } from 'vue-router'
     <br/>
     <RouterLink to="/autofan">Jump to AutoFan Control Page</RouterLink>
     <br/>
+    <RouterLink to="/temperaturehumidinfo">Jump to AutoFan Control Page</RouterLink>
+    <br/>
     <RouterView />
 </template>
 
